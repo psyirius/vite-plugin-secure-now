@@ -28,6 +28,7 @@ A Vite plugin to get instant HTTPS for your development server.
 
 - **Instant HTTPS**: Automatically sets up HTTPS for your Vite dev server.
 - **Easy Integration**: Simple configuration and seamless integration with Vite.
+- **Secure Context Development**: Develop for [Secure contexts](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts) without any hassle.
 
 ## How It Works
 

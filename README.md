@@ -1,16 +1,11 @@
 # 
 
-[//]: # (<div align="center">)
-
-[//]: # (  <picture>)
-
-[//]: # (    <source media="&#40;prefers-color-scheme: dark&#41;" srcset="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg">)
-
-[//]: # (    <img alt="Vite Plugin Secure Now" src="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg" width="256px">)
-
-[//]: # (  </picture>)
-
-[//]: # (</div>)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg">
+    <img alt="Vite Plugin Secure Now" src="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg" width="256px">
+  </picture>
+</div>
 
 ###
 

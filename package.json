@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-secure-now",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "A Vite plugin to get instant https for your development server",
   "type": "module",
   "author": "Psyirius",
@@ -20,6 +20,17 @@
       "require": "./dist/index.cjs"
     }
   },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "ssl",
+    "https",
+    "secure",
+    "development",
+    "node",
+    "server",
+    "traefik"
+  ],
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

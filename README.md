@@ -2,8 +2,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/assets/images/logo.svg">
-    <img alt="Rockite - Modern WebSockets Client" src="/assets/images/logo.svg" width="256px">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg">
+    <img alt="Vite Plugin Secure Now" src="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg" width="256px">
   </picture>
 </div>
 
@@ -22,7 +22,7 @@ A Vite plugin to get instant HTTPS for your development server.
 
 ## Screenshots
 
-![Vite Console](/assets/images/screenshot-0.png)
+![Vite Console](https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/screenshot-0.png)
 
 ## Features
 

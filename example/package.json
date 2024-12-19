@@ -1,0 +1,21 @@
+{
+  "name": "vite-plugin-secure-now-example",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psyirius/vite-plugin-secure-now.git",
+    "directory": "example"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11",
+    "vite-plugin-secure-now": "../"
+  }
+}

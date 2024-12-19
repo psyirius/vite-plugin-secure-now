@@ -83,13 +83,13 @@ async function getCert() {
     return paths;
 }
 
-interface HttpsOptions {
+interface SecureNowOptions {
     dev?: boolean; // enable https in dev server
     preview?: boolean; // enable https in preview server
     prefix?: string; // prefix for the serving domain
 }
 
-function vitePluginHttps(options: HttpsOptions = {}): Plugin {
+function vitePluginHttps(options: SecureNowOptions = {}): Plugin {
     let servingDomain: string | undefined = undefined;
 
     function setAddrPrinter(server: ViteDevServer | PreviewServer) {
@@ -159,7 +159,7 @@ function vitePluginHttps(options: HttpsOptions = {}): Plugin {
 }
 
 export {
-    HttpsOptions,
+    SecureNowOptions,
 };
 
 export default vitePluginHttps;

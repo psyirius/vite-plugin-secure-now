@@ -1,13 +1,20 @@
 # 
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg">
-    <img alt="Vite Plugin Secure Now" src="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg" width="256px">
-  </picture>
-</div>
+[//]: # (<div align="center">)
+
+[//]: # (  <picture>)
+
+[//]: # (    <source media="&#40;prefers-color-scheme: dark&#41;" srcset="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg">)
+
+[//]: # (    <img alt="Vite Plugin Secure Now" src="https://github.com/psyirius/vite-plugin-secure-now/raw/main/assets/images/logo.svg" width="256px">)
+
+[//]: # (  </picture>)
+
+[//]: # (</div>)
 
 ###
+
+<h1 align="center">Vite Plugin Secure Now 🎉</h1>
 
 <div align="center">
 
@@ -15,8 +22,6 @@
 [![license](https://img.shields.io/npm/l/vite-plugin-secure-now.svg?style=flat-square)](https://github.com/psyirius/vite-plugin-secure-now/blob/main/LICENSE)
 
 </div>
-
-<h1 align="center">Vite Plugin Secure Now 🎉</h1>
 
 A Vite plugin to get instant HTTPS for your development server.
 
@@ -84,7 +89,7 @@ interface Options {
   preview?: boolean;
   /**
    * The subdomain prefix for the HTTPS URL.
-   * You can use different combinations mentioned at: https://traefik.me/
+   * You can use different combinations supported with: https://traefik.me/
    * Note: The subdomain should not be nested.
    * @default 'vite'
    */

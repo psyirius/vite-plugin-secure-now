@@ -1,0 +1,35 @@
+{
+  "name": "vite-plugin-secure-now",
+  "version": "0.0.0",
+  "description": "A Vite plugin to get instant https for your development server",
+  "type": "module",
+  "author": "Psyirius",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psyirius/vite-plugin-secure-now"
+  },
+  "bugs": {
+    "url": "https://github.com/psyirius/vite-plugin-secure-now/issues"
+  },
+  "homepage": "https://github.com/psyirius/vite-plugin-secure-now#readme",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "unbuild",
+    "prepack": "unbuild"
+  },
+  "devDependencies": {
+    "picocolors": "^1.1.1",
+    "@changesets/cli": "^2.27.11",
+    "unbuild": "^3.0.1"
+  }
+}

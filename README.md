@@ -29,6 +29,10 @@ A Vite plugin to get instant HTTPS for your development server.
 - **Instant HTTPS**: Automatically sets up HTTPS for your Vite dev server.
 - **Easy Integration**: Simple configuration and seamless integration with Vite.
 
+## How It Works
+
+This plugin configures Vite's dev server to use the ssl certificate from [traefik.me](https://traefik.me/) to resolve to local ip addresses.
+
 ## Installation
 
 ### NPM
@@ -79,6 +83,7 @@ interface Options {
   preview?: boolean;
   /**
    * The subdomain prefix for the HTTPS URL.
+   * You can use different combinations mentioned at: https://traefik.me/
    * Note: The subdomain should not be nested.
    * @default 'vite'
    */

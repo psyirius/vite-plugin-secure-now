@@ -18,7 +18,10 @@
 
 </div>
 
-A Vite plugin to get instant HTTPS for your development server.
+> [!WARNING]
+> **This plugin is currently not working.**
+>
+> Please refer to [this commit](https://github.com/pyrou/traefik.me/commit/16fc1fc17edc298c39e87343873dca5d3894a928) for more info.
 
 ## Screenshots
 
